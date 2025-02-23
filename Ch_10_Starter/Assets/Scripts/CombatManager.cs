@@ -17,7 +17,7 @@ public class CombatManager : BaseManager
     }
     public override void Initialize()
     {
-        _state = "Combat Manager initialized...";
+        _state = "Combat Manager is not initialized...";
         Debug.Log(_state);
     }
 }
