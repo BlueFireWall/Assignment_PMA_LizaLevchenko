@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class LearningCurve : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    public int MyVariable = 17;
+    public int AddedAge = 8;
     void Start()
     {
-
+        ComputeAge();
     }
+    
 
-    // Update is called once per frame
-    void Update()
-    {
-     
-    }
+
+   
+void ComputeAge()
+{
+    Debug.Log(MyVariable + AddedAge);
+}
 }

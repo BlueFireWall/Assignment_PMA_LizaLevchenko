@@ -2,11 +2,11 @@ Unity Editor version:    2022.1.13f1 (22856944e6d2)
 Branch:                  2022.1/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 12.2.1 (Build 21D62)
-Darwin version:          21.3.0
+macOS version:           Version 15.3 (Build 24D60)
+Darwin version:          24.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        16384 MB
+Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter
+/Users/lizalevchenko/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59818
-Successfully changed project path to: /Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter
-/Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter
+56824
+Successfully changed project path to: /Users/lizalevchenko/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter
+/Users/lizalevchenko/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,111 +54,117 @@ Successfully changed project path to: /Users/harrisonferrone/Documents/GitHub/Le
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 66.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.13f1 (22856944e6d2)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.1.13f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Assets
+[Subsystems] Discovering subsystems at path /Users/lizalevchenko/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M1 Pro (high power)
+ preferred device: Apple M1 (high power)
 Metal devices available: 1
-0: Apple M1 Pro (high power)
-Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.1.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.1.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.1.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56809
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.1.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001539 seconds.
+Register platform support module: /Applications/Unity/Hub/Editor/2022.1.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.001405 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 65.42 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.465 seconds
+- Completed reload, in  0.634 seconds
 Domain Reload Profiling:
-	ReloadAssembly (466ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (634ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (322ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (85ms)
-				TypeCache.Initialize (85ms)
-					TypeCache.ScanAssembly (84ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (82ms)
+				TypeCache.Initialize (82ms)
+					TypeCache.ScanAssembly (81ms)
 				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (182ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (353ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (174ms)
 				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (67ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001357 seconds.
+Registered in 0.007639 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/lizalevchenko/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/lizalevchenko/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for iOS target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
+- Completed reload, in  1.108 seconds
 Domain Reload Profiling:
-	ReloadAssembly (732ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (1108ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (579ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (966ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
-				TypeCache.Initialize (199ms)
-					TypeCache.ScanAssembly (197ms)
+			SetupTypeCache (205ms)
+				TypeCache.Initialize (202ms)
+					TypeCache.ScanAssembly (199ms)
 				ResolveRequiredComponents (3ms)
-			ReleaseScriptCaches (0ms)
+			ReleaseScriptCaches (2ms)
 			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (240ms)
+			SetupLoadedEditorAssemblies (611ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (10ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2022.1.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.28 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3442 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (45.9 KB). Loaded Objects now: 3903.
-Memory consumption went from 0.63 GB to 0.63 GB.
-Total: 2.443541 ms (FindLiveObjects: 0.135667 ms CreateObjectMapping: 0.044458 ms MarkObjects: 2.209709 ms  DeleteObjects: 0.053125 ms)
+Unloading 26 unused Assets / (42.9 KB). Loaded Objects now: 3902.
+Memory consumption went from 501.0 MB to 500.9 MB.
+Total: 7.517500 ms (FindLiveObjects: 0.347584 ms CreateObjectMapping: 0.065000 ms MarkObjects: 6.655417 ms  DeleteObjects: 0.448417 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -172,67 +178,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1363721.913358 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-Environment.asset
-  artifactKey: Guid(3693f9768069445578611d9b339517cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-Environment.asset using Guid(3693f9768069445578611d9b339517cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a556262899c0b3ed7bd5a1db9830823') in 0.072862 seconds 
+  Time since last request: 495477.910575 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4874d8225e84c4df4b69013ff12a9103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(4874d8225e84c4df4b69013ff12a9103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba894a49034deb1c56df3095b3e4ff6') in 0.002739 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001868 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x2cc0c7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/harrisonferrone/Documents/GitHub/Learning-C-by-Developing-Games-with-Unity-Seventh-Edition/Ch_11_Starter/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.723 seconds
-Domain Reload Profiling:
-	ReloadAssembly (724ms)
-		BeginReloadAssembly (127ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (536ms)
-			LoadAssemblies (47ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
-				TypeCache.Initialize (233ms)
-					TypeCache.ScanAssembly (230ms)
-				ResolveRequiredComponents (3ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (193ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (129ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (2ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3422 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (22.7 KB). Loaded Objects now: 3907.
-Memory consumption went from 0.63 GB to 0.63 GB.
-Total: 2.266667 ms (FindLiveObjects: 0.130125 ms CreateObjectMapping: 0.043292 ms MarkObjects: 2.060041 ms  DeleteObjects: 0.032500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 8787.135896 seconds.
+  path: Assets/Scripts/CameraBehavior.cs
+  artifactKey: Guid(371f100c77eb848a1ab15558e1cc68e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraBehavior.cs using Guid(371f100c77eb848a1ab15558e1cc68e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b656b0ae14cc9112aa9a19dd6d7849') in 0.294722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.256354 seconds.
+  path: Assets/Scripts/BulletBehavior.cs
+  artifactKey: Guid(f17fccf38ab0f4070bc19e9c26c14b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BulletBehavior.cs using Guid(f17fccf38ab0f4070bc19e9c26c14b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e8e5b43c510b68f1f38139c14a64c1a') in 0.014406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.501787 seconds.
+  path: Assets/Scripts/Character.cs
+  artifactKey: Guid(594104f38ef924e89b0c37ceda6eb11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character.cs using Guid(594104f38ef924e89b0c37ceda6eb11c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9632c2ccc919c69438febb8bc82092c') in 0.005946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.084153 seconds.
+  path: Assets/Scripts/CustomExtensions.cs
+  artifactKey: Guid(de6735bb7d89d4fd2b7d3e58813192c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CustomExtensions.cs using Guid(de6735bb7d89d4fd2b7d3e58813192c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd89b1ff74261b53bc2c36ef022d0965') in 0.007622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.977129 seconds.
+  path: Assets/Scripts/DataManager.cs
+  artifactKey: Guid(1b33b64d7c1d24cb18bca1734c94dc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DataManager.cs using Guid(1b33b64d7c1d24cb18bca1734c94dc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf4c602771e5aac5dc02d456d14c5ad') in 0.012092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.154242 seconds.
+  path: Assets/Scripts/EnemyBehavior.cs
+  artifactKey: Guid(a991af272fc2e4eadaf309804997ea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyBehavior.cs using Guid(a991af272fc2e4eadaf309804997ea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb824dd4ad46e34e8c7b357fab603002') in 0.007811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.045006 seconds.
+  path: Assets/Scripts/GameBehavior.cs
+  artifactKey: Guid(016d1308669534b0d935417908a91eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameBehavior.cs using Guid(016d1308669534b0d935417908a91eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ff53b136d020eaa1c4500a9f0c901c') in 0.002779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.962203 seconds.
+  path: Assets/Scripts/IManager.cs
+  artifactKey: Guid(f8966a3976d874888aac91c521beb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/IManager.cs using Guid(f8966a3976d874888aac91c521beb504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a7efe1e636c5fb59becfe90ae4bcdb') in 0.001749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.985419 seconds.
+  path: Assets/Scripts/ItemBehavior.cs
+  artifactKey: Guid(ba5b36b7b36ea4f4d841015ff49584d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemBehavior.cs using Guid(ba5b36b7b36ea4f4d841015ff49584d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2749c6b2d3cde3699aea00bb635fb955') in 0.001412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.932382 seconds.
+  path: Assets/Scripts/ItemRotation.cs
+  artifactKey: Guid(e8f905b2b59b349139f8d434581fc51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemRotation.cs using Guid(e8f905b2b59b349139f8d434581fc51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288c981d4da7dc050f9c52957f0835ef') in 0.007164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.116493 seconds.
+  path: Assets/Scripts/LearningCurve.cs
+  artifactKey: Guid(cd88bbae5474440e9a6ae28a9106b7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LearningCurve.cs using Guid(cd88bbae5474440e9a6ae28a9106b7b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b6f758fa1f90b572e8ba8ba1b72cc') in 0.004409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.276458 seconds.
+  path: Assets/Scripts/PlayerBehavior.cs
+  artifactKey: Guid(d9228a45ab5594863a5f69503cd5335e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerBehavior.cs using Guid(d9228a45ab5594863a5f69503cd5335e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd576558aa63925824c34aec117ced80d') in 0.001476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.701713 seconds.
+  path: Assets/Scripts/Utilities.cs
+  artifactKey: Guid(c9b357d0c12104e8cadc356b0c62daa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utilities.cs using Guid(c9b357d0c12104e8cadc356b0c62daa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baca719b3253196bc9bad312a57dd01a') in 0.009358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.031933 seconds.
+  path: Assets/Scripts/Weapon.cs
+  artifactKey: Guid(cd4ff1de25228423bba59582d599c438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Weapon.cs using Guid(cd4ff1de25228423bba59582d599c438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c8124df0d77525d4caa209cf63eb51') in 0.002758 seconds 
